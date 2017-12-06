@@ -7,20 +7,20 @@ data:extend({
 			ammo_category = "flamethrower",
 			ammo_type = {
 				action = {
-						action_delivery = {
-							-- max_range = 50,
-							-- projectile = "acid-projectile-purple",
-							-- starting_speed = 0.5,
-							-- type = "projectile"
-								duration = 160,
-								source_offset = {
-								0.15,
-								-0.5
-								},
-								stream = "flamethrower-fire-stream",
-								type = "stream"
+					action_delivery = {
+						-- max_range = 50,
+						-- projectile = "acid-projectile-purple",
+						-- starting_speed = 0.5,
+						-- type = "projectile"
+						duration = 160,
+						source_offset = {
+							0.15,
+							-0.5
 						},
-						type = "direct"
+						stream = "flamethrower-fire-stream",
+						type = "stream"
+					},
+					type = "direct"
 				},
 				--category = "biological"
 				category = "flamethrower"
@@ -40,72 +40,72 @@ data:extend({
 			order = "b[enemy]-b[worm]",
 			peaks = {
 			{
-					influence = 0,
-					richness_influence = 100,
-					tier_from_start_max_range = 52,
-					tier_from_start_optimal = 26,
-					tier_from_start_top_property_limit = 26
+				influence = 0,
+				richness_influence = 100,
+				tier_from_start_max_range = 52,
+				tier_from_start_optimal = 26,
+				tier_from_start_top_property_limit = 26
 			},
 			{
-					influence = -10,
-					starting_area_weight_max_range = 2,
-					starting_area_weight_optimal = 1,
-					starting_area_weight_range = 0
+				influence = -10,
+				starting_area_weight_max_range = 2,
+				starting_area_weight_optimal = 1,
+				starting_area_weight_range = 0
 			},
 			{
-					influence = 0.223,
-					noise_layer = "enemy-base",
-					noise_octaves_difference = -1.8,
-					noise_persistence = 0.5
+				influence = 0.223,
+				noise_layer = "enemy-base",
+				noise_octaves_difference = -1.8,
+				noise_persistence = 0.5
 			},
 			{
-					influence = 0.33300000000000001,
-					noise_layer = "enemy-base",
-					noise_octaves_difference = -1.8,
-					noise_persistence = 0.5,
-					tier_from_start_max_range = 52,
-					tier_from_start_optimal = 26,
-					tier_from_start_top_property_limit = 26
+				influence = 0.33300000000000001,
+				noise_layer = "enemy-base",
+				noise_octaves_difference = -1.8,
+				noise_persistence = 0.5,
+				tier_from_start_max_range = 52,
+				tier_from_start_optimal = 26,
+				tier_from_start_top_property_limit = 26
 			},
 			{
-					influence = 0.005
+				influence = 0.005
 			},
 			{
-					influence = 0.03,
-					min_influence = 0,
-					noise_layer = "copper-ore",
-					noise_octaves_difference = -2,
-					noise_persistence = 0.3
+				influence = 0.03,
+				min_influence = 0,
+				noise_layer = "copper-ore",
+				noise_octaves_difference = -2,
+				noise_persistence = 0.3
 			},
 			{
-					influence = 0.03,
-					min_influence = 0,
-					noise_layer = "iron-ore",
-					noise_octaves_difference = -2,
-					noise_persistence = 0.3
+				influence = 0.03,
+				min_influence = 0,
+				noise_layer = "iron-ore",
+				noise_octaves_difference = -2,
+				noise_persistence = 0.3
 			},
 			{
-					influence = 0.03,
-					min_influence = 0,
-					noise_layer = "coal",
-					noise_octaves_difference = -2,
-					noise_persistence = 0.3
+				influence = 0.03,
+				min_influence = 0,
+				noise_layer = "coal",
+				noise_octaves_difference = -2,
+				noise_persistence = 0.3
 			},
 			{
-					influence = 0.03,
-					min_influence = 0,
-					noise_layer = "stone",
-					noise_octaves_difference = -2,
-					noise_persistence = 0.3
+				influence = 0.03,
+				min_influence = 0,
+				noise_layer = "stone",
+				noise_octaves_difference = -2,
+				noise_persistence = 0.3
 			}
-			},
-			random_probability_penalty = 0.05,
-			richness_base = 0,
-			richness_multiplier = 1,
-			sharpness = 0.4
 		},
-		build_base_evolution_requirement = 0.5,
-		call_for_help_radius = 40,
+		random_probability_penalty = 0.05,
+		richness_base = 0,
+		richness_multiplier = 1,
+		sharpness = 0.4
+	},
+	build_base_evolution_requirement = 0.5,
+	call_for_help_radius = 40,
 		collision_box = {
 		{
 		-1.3999999999999999,
